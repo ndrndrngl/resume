@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #000; /* Added border to profile image */
+  }
+  
+  .profile_name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .profile_title {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 5px 0;
+  }
+  
+  .edu_item, .work_item, .project_item, .reference_item {
+    margin-bottom: 15px;
+  }
+  
+  .item_preTitle {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .item_title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item_subtitle, .description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .contact_info p {
+    margin: 5px 0;
+  }
+  
+  .references {
+    margin-top: 20px;
+  }
+  
